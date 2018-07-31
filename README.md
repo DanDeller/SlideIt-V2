@@ -14,4 +14,4 @@ MES slider plugin
     speed: 4000, // how fast slides change
     textDelay: 1000 // how fast blurb text should fade in
   });
-  ```
+```
