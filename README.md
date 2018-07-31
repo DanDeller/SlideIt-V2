@@ -7,6 +7,7 @@ MES slider plugin
 </ul>
 
 <h2>How to use:</h2>
+
 ```
   $(this).slideIt({
     parent: '#home-slider', // parent ul of li's
