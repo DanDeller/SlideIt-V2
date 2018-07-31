@@ -1,7 +1,7 @@
 # SlideIt-V2-
 MES slider plugin
 
-Checkout the <a href='http://jsfiddle.net/wxb7rk16/'>demo</a>.
+Checkout the <a href='http://jsfiddle.net/wxb7rk16/5/'>demo</a>.
 
 <h2>Starting out:</h2>
 <ul>
