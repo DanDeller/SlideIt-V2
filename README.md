@@ -1,4 +1,4 @@
-# SlideIt-V2-
+# SlideIt-V2
 MES slider plugin
 
 Checkout the <a href='http://jsfiddle.net/wxb7rk16/18/'>demo</a>.
