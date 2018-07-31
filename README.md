@@ -11,7 +11,6 @@ Checkout the <a href='http://jsfiddle.net/wxb7rk16/18/'>demo</a>.
 <h2>How to use:</h2>
 
 ```
-// SLIDER
 $('#home-slider').fadeIn(500, function() {
   $(this).slideIt({
     parent: '#home-slider', // parent ul of li's
