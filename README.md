@@ -9,10 +9,13 @@ MES slider plugin
 <h2>How to use:</h2>
 
 ```
+// SLIDER
+$('#home-slider').fadeIn(500, function() {
   $(this).slideIt({
     parent: '#home-slider', // parent ul of li's
     slides: '#home-slider li', // slides
     speed: 4000, // how fast slides change
     textDelay: 1000 // how fast blurb text should fade in
   });
+});
 ```
