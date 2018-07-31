@@ -1,6 +1,8 @@
 # SlideIt-V2-
 MES slider plugin
 
+Checkout the demo: http://jsfiddle.net/wxb7rk16/
+
 <h2>Starting out:</h2>
 <ul>
   <li>Download js file and include it in your project</li>
