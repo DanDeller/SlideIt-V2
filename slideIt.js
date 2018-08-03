@@ -47,8 +47,6 @@
             .removeClass('active-slide')
             .next('li')
             .addClass('active-slide')
-            .find('a')
-            .fadeIn(500);
 
           setTimeout(function() {
             $(options.slides + '.active-slide')
