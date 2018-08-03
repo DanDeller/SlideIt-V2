@@ -51,7 +51,7 @@
               .next('li')
               .removeClass('active-slide-right');
             $(options.slides + ':first-child').appendTo($(options.parent));
-          }, 2000);
+          }, 1500);
 
           $('.slider-tab.slider-tab-active')
             .removeClass('slider-tab-active')
