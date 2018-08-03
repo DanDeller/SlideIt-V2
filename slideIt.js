@@ -19,9 +19,11 @@
    *    - Slide change speed(ms)
    *    - Text fade in speed(ms)
    *
-  \*/
+  \*/ 
 
   $.fn.slideIt = function(options) {
+
+    // pull options set by user
     var options = $.extend({
       parent: '',
       slides: '',
@@ -29,9 +31,11 @@
       textDelay: 0
     }, options);
 
+    // set text index to 0 and gather all slides
     var textIndex = 0,
         slides    = $(options.parent + ' li');
     
+    // slideIt()
     function slideIt() {
       var headlineText = $('.headline-text'),
           sliderTab    = $('.slider-tab:first-child');
@@ -61,6 +65,8 @@
           textIndex++;
           slideIt();
 
+          // reset text index to 0 
+          // & slider tab to first tab
           if (textIndex === slides.length) {
             textIndex = 0;
             sliderTab.addClass('slider-tab-active')
